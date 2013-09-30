@@ -21,6 +21,7 @@
 		DD970B6917F9B7F700FBF067 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD970B4B17F9B7F700FBF067 /* UIKit.framework */; };
 		DD970B7117F9B7F700FBF067 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD970B6F17F9B7F700FBF067 /* InfoPlist.strings */; };
 		DD970B7317F9B7F700FBF067 /* DemogitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD970B7217F9B7F700FBF067 /* DemogitTests.m */; };
+		DD970B7E17F9B92400FBF067 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DD970B7D17F9B92400FBF067 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DD970B6E17F9B7F700FBF067 /* DemogitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemogitTests-Info.plist"; sourceTree = "<group>"; };
 		DD970B7017F9B7F700FBF067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD970B7217F9B7F700FBF067 /* DemogitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemogitTests.m; sourceTree = "<group>"; };
+		DD970B7C17F9B92400FBF067 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		DD970B7D17F9B92400FBF067 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				DD970B5617F9B7F700FBF067 /* AppDelegate.h */,
 				DD970B5717F9B7F700FBF067 /* AppDelegate.m */,
 				DD970B5917F9B7F700FBF067 /* Main.storyboard */,
+				DD970B7C17F9B92400FBF067 /* ViewController2.h */,
+				DD970B7D17F9B92400FBF067 /* ViewController2.m */,
 				DD970B5C17F9B7F700FBF067 /* ViewController.h */,
 				DD970B5D17F9B7F700FBF067 /* ViewController.m */,
 				DD970B5F17F9B7F700FBF067 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD970B5E17F9B7F700FBF067 /* ViewController.m in Sources */,
+				DD970B7E17F9B92400FBF067 /* ViewController2.m in Sources */,
 				DD970B5817F9B7F700FBF067 /* AppDelegate.m in Sources */,
 				DD970B5417F9B7F700FBF067 /* main.m in Sources */,
 			);
@@ -460,6 +466,7 @@
 				DD970B7817F9B7F700FBF067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD970B7917F9B7F700FBF067 /* Build configuration list for PBXNativeTarget "DemogitTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				DD970B7B17F9B7F700FBF067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
